@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* font-family: "Roboto", sans-serif; */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: rgb(48, 27, 13);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: beige;
+  min-height: 400px;
+  margin-top: 50px;
+  padding: 20px 20px 20px 0;
+}
+
+.landing-left-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.right-menu {
+  justify-content: left;
+  gap: 30px;
+  margin-bottom: 90px;
+}
+
+.right-menu-item a {
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+.right-menu-item a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.landing-right-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.landing-right-text {
+  max-width: 500px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.left-btn {
+  padding: 10px 20px;
+  background-color: gold;  
+  border-radius: 30px;
+  margin-right: 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all .5s;
+}
+
+.left-btn:hover {
+  background-color: black;
+  color: gold;
+}
+
+
+
+.right-btn {
+  padding: 10px 20px;
+  background-color: black;  
+  border-radius: 30px;
+  margin-right: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all .5s;
+}
+
+.right-btn:hover {
+  color: black;
+  background-color: beige;
+  border: 2px solid black;
+}
+
+.landing-row {
+  padding: 40px 0;
+}
+
+.landing-right {
+  padding-left: 50px;
+}
